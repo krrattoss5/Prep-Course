@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'superior';
+const nuevaString = 'string';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 1000000;
+const nuevoNum = 5;
 
 // Crea una variable booleana:
-const nuevoBool = false;
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  var devolverString = 'str'
+  var devolverString = str;
   return devolverString;
   
 }
@@ -45,7 +45,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  var resta = x -y;
+  var resta = x - y;
   return resta;
   
 }
@@ -74,7 +74,7 @@ function sonIguales(x, y) {
   if (x == y) {
     return true;
   }
-
+  
   return false;
   
 }
@@ -83,17 +83,13 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-
+  
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  var num = 10;
-  if (num < 90) {
-    return true;
-  }
   
 }
 
@@ -101,18 +97,12 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  var num = 60;
-  if (num > 50) {
-    return true;
-  }
   
 }
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  var obtenerResto = x % y;
-  return obtenerResto;
   
 }
 
@@ -120,8 +110,6 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  var esPar = num % 2 == 0;
-  return esPar;
   
 }
 
