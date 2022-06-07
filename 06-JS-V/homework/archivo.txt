@@ -1,0 +1,6 @@
+* `prototype`: Todos los objetos en javascript hacen reerencia a un objeto raiz llamado prototipo
+ que es donde se guardan las propiedades por defecto, cuando hacemos referencia a una propiedad dentro de un objeto si no se la
+ hemos asignado, el interprete busca en el prototipo y si no encuentra dicha propiedad devuelve un error.
+
+* _Constructors_ (de Clases): Los constructors de classes son, como prototipos que podemos crear para usar su estructura un 
+sin numero de veces con otros datos sin tener que estar repitiendo el codigo muchas veces.
