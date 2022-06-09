@@ -1,0 +1,28 @@
+* Arrays: Son arreglos o mtrices de informacion que podemos invocar a travez de un indice numerico, en estos arreglos podemos
+podemos guardar cualquier tipo de datos, strings, numericos o booleanos, ejemplo de como se crea un array:
+
+var array = []; /// este es un array vacio, pero tambien se puede crear ya con datos...
+
+var array = [1, dos, false]; //los datos pueden ser mixtos dentro de un array osea, no importa el tipo siempre puede asignarsele un puesto..
+
+
+var array = [1, dos, false]; //El indice de un array siempre inicia en el valor 0 como mustro debajo de cada uno...
+            [0] [1]  [2]
+
+Esta es la forma que se una para invocar el elemento de un array:
+
+array[0]  // 1
+array[1]  //dos
+array[2]  //false
+
+Dentro de los arrays tambien, podemos guardar funciones u otros arrays, incluso las palabras son tipor de arrays ocultos, por
+lo tanto tambien podemos invocar cada uno de sus caracteres segun su sub posicion ej:
+
+array[1][0]  //d
+array[1][1]  //o
+array[1][2]  //s
+
+podemos usar tambien por logica algunas propiedades de los strings como por ejemplo .length para saber cuantos elementos tiene
+un array por ejemplo:
+
+array.length // 3
