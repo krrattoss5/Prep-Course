@@ -1,0 +1,11 @@
+*CallBacks
+ Los call backs son, arreglos(funciones) que llaman a otras funciones(no es necesario inocarlas, ya que
+  el producto podria
+ arrojar un error), existed distintos tipos de CallBacks y los que he aprendido hasta ahora son:
+
+  + .toEach: Funciona pasando a travez del callback los argumentos uno por uno.
+  + .reduce: Su uso itera cada uno de los elementos de un arreglo convirtiendolos
+     en uno solo y nos arroja el resultado en un acumulador.
+  + .map: Esta propiedad se usa cuando queremos iterar en cada uno de los elementos
+   de la misma manera, de una forma individual dandonos como resultado un nuevo 
+   array(arreglo) con la misma cantidad de elementos pero totalmente distinto al anterior.

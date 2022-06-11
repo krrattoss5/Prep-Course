@@ -1,0 +1,27 @@
+	* Objetos: Los objetos son indices mas especificos que los arreglos, que estan compuestos por propiedades y valores generalmente
+    estas propiedades son strings y los valores pueden ser cualquier tipo de datos ej de un objeto que describe a una persona:
+
+    var Sophi = {
+        nombre: 'Spohi',
+        apellido: undefined,
+        edad: 27,
+        hobbie: 'programar'
+    }
+
+	* Propiedades: las propiedades son donde gusrdamos los valores en un objeto, estos en ocaciones tambien pueden llegar a ser funciones.
+
+	* Métodos: Los metodos son como generalmente se le denomina a las funciones que se encuentran dentro de un objeto.
+
+	* Bucle `for…in`: Como los objetos se invocan a travez de propiedades string no podemos recorrer sus datos, con el for Loop
+    para esto existe el bucle for in que se escribe de la siguiente manera: 
+
+            for (var clave in Sophi){
+                consol.log(clave);
+                console.log(sophie[clave]);
+            }
+
+
+	* Notación de puntos vs notación de corchetes: La notacion de puntos (objeto.propiedad) nos permite ser mas breveas a la hora de
+    escribir nuestro codigo en representacion del valor de un objeto pero para la manipulacion del objeto la representacion de corchetes
+    (objeto[propiedad]) nos da mas opciones de administrar dicho objeto.
+    

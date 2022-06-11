@@ -1,0 +1,60 @@
+h1 {
+    color: white;
+    font-size: 18px;
+}
+
+img {
+    max-width: 400px;
+}
+
+body {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-image: url("https://www.ibm.com/content/dam/connectedassets-adobe-cms/worldwide-content/msc/ul/g/94/07/940754cb-5070-44c3-9043feb019569c60.component.xl.ts=1646673571570.jpg/content/adobe-cms/es/es/topics/mainframe/_jcr_content/root/leadspace");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#spanId {
+    color: aliceblue;
+    font-size: 18px;
+    margin: 50px;
+}
+
+.divClass{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    border: 5px;
+    background-color:rgba(78, 78, 78, 0.644);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divClass a{
+    align-self: flex-end;
+    color:rgb(129, 85, 2);
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(87, 57, 2)
+}
+
+ul{
+    color: aliceblue;
+}

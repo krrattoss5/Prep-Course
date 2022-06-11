@@ -1,0 +1,13 @@
+* `for`: Es un bocle(Loop), que ejecuta una exprecion una cantidad de veces especificadas por una condicion de valores,
+en las que si el valor es true este se va a repetir hasta que el valor condicional se evalue como false.
+ejemplo de un bucle for:
+
+for (var i = 0; i < 10; i++){
+    console.log(i);
+}
+
+
+* `&&`, `||`, `!`: Estos tres tipos de operador, se les llama operadores condicionales, que representan para el interprete lo mismo que para nosotros en la vida
+real segun su traduccion al ingles &&( y ) osea podemos de clarar que si dos valores cumplen con la condicion al mismo tiempo
+se ejecute una accion especificada e igual con ||( or ) que nos dice que si uno u otro valor estan o no estan entonces se ejecutara otra accion,
+y el !( no ) osea si !==( no son iguales ), !<(si no es menor que), !>(si no es mayor que) entonces hacer algo, o simplemente no hacer nada.
